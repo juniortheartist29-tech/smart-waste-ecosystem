@@ -47,7 +47,7 @@ export function Navbar() {
             <Button variant="ghost" asChild>
               <Link href="/login">Log in</Link>
             </Button>
-            <Button asChild>
+            <Button asChild className="bg-blue-600 text-white hover:bg-blue-700">
               <Link href="/dashboard">Get Started</Link>
             </Button>
           </div>
